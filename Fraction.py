@@ -1,10 +1,10 @@
 class Fraction:
-    #properties
+    
     def __init__(self, ss , mm):
         self.s = ss
         self.m = mm
 
-    #methods
+    
     def sum(self, other) : 
         result_s = self.s * other.m + self.m * other.s
         result_m = self.m*other.m
