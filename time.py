@@ -2,14 +2,14 @@ import datetime
 import pytz
 
 class Time:
-    #properties
+
     def __init__(self, h, m, s):
         self.hour = h
         self.minute = m
         self.second = s
         self.fix()
 
-    #methods
+    
     def time_to_second(self):
         result_h = self.hour * 3600
         result_m = self.minute * 60
