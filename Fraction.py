@@ -55,7 +55,7 @@ class Fraction:
         x = self.s / self.m
         return x
 
-    def Simpling_fractions(self):
+    def Fractions_Simplification(self):
         b2=[]
         a2=[]
         for i in range(1 , self.s+1):
@@ -102,5 +102,5 @@ percentages.show()
 number = a.Convert_fractions_to_number()
 print(number)
 
-simple_fractions = a.Simpling_fractions()
-simple_fractions.show()
+fractions_simplification = a.Fractions_Simplification()
+fractions_simplification.show()
